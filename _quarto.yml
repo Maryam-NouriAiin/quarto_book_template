@@ -1,43 +1,25 @@
 project:
   type: book
-  
-permissions:
-  contents: write
+
 book:
-  title: "Template"
-  author: "Maryam"
-  date: today
-  site-url: https://maryam-nouriaiin.github.io/quarto_book_template/
-  repo-url: https://github.com/Maryam-NouriAiin/quarto_book_template # Use the correct GitHub repo URL
-  repo-branch: main
-  repo-actions: [source, edit, issue]
+  title: "test"
+  author: "Norah Jones"
+  date: "3/30/2025"
   chapters:
-    - index.qmd
     - first.qmd
     - second.qmd
     - third.qmd
 
+bibliography: references.bib
+
 format:
   html:
-    theme: [default, style/graphs.scss]
-    code-link: true
-    highlight-style: style/joyce.theme
-    callout-icon: false
-    fig-width: 4
-    fig-height: 3
-    
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
 
-knitr:
-  opts_chunk: 
-    fig.align: center
-    out.width: 50%
-    
-execute:
-  echo: true
-  warning: false
-  message: false
-  error: true
-  cache: false
+editor: visual
 
-editor: source
 
