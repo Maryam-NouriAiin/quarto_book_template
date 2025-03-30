@@ -1,12 +1,14 @@
 project:
   type: book
-
+  
+permissions:
+  contents: write
 book:
   title: "Template"
   author: "Maryam"
   date: today
   site-url: https://maryam-nouriaiin.github.io/quarto_book_template/
-  repo-url: https://github.com/Maryam-NouriAiin/quarto_book_template/  # Use the correct GitHub repo URL
+  repo-url: https://github.com/Maryam-NouriAiin/quarto_book_template # Use the correct GitHub repo URL
   repo-branch: main
   repo-actions: [source, edit, issue]
   chapters:
