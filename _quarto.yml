@@ -23,6 +23,7 @@ format:
     callout-icon: false
     fig-width: 4
     fig-height: 3
+    include-after-body: _footer.html
     
 knitr:
   opts_chunk: 
