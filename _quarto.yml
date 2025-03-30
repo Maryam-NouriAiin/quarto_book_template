@@ -11,9 +11,9 @@ book:
   repo-actions: [source, edit, issue]
   chapters:
     - index.qmd
-    - First.qmd
-    - Second.qmd
-    - Third.qmd
+    - first.qmd
+    - second.qmd
+    - third.qmd
 page-footer:
   left:
     - icon: envelope
